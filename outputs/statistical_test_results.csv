@@ -1,0 +1,6 @@
+Test,H0,H1,Significance Level,Test Statistic,P-value,Decision,Conclusion
+Pearson correlation,No linear relationship between alcohol and quality,A linear relationship exists,0.05,0.4355747154613733,5.614770253731286e-226,Reject H0,Moderate positive linear relationship (r = 0.44): higher alcohol goes with higher quality.
+Spearman correlation,No monotonic relationship between alcohol and quality,A monotonic relationship exists,0.05,0.44036918162468297,1.6591955335865496e-231,Reject H0,Moderate positive monotonic relationship (rho = 0.44); confirms the Pearson result.
+Welch t-test,Mean alcohol is equal in Good and Not Good wines,Mean alcohol differs between the groups,0.05,-27.109964075387467,1.3020291351134789e-132,Reject H0,Good wines have clearly higher mean alcohol (11.42 vs 10.27); Cohen's d = 1.01 (large effect).
+Mann-Whitney U,Alcohol has the same distribution in Good and Not Good wines,The distributions differ,0.05,1007694.0,4.434501038873333e-140,Reject H0,Distributions differ significantly; confirms the t-test without assuming normality.
+Shapiro-Wilk,Alcohol is normally distributed,Alcohol is not normally distributed,0.05,0.9509189146471689,7.899544155189321e-12,Reject H0,"Alcohol is not normally distributed, so rank-based tests (Spearman, Mann-Whitney) are a sensible check."

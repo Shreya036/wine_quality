@@ -1,0 +1,13 @@
+Variable,Role,Unit,Meaning,Observed min,Observed max
+fixed acidity,Input,g/dm3 (tartaric acid),Non-volatile acids (mainly tartaric) that do not evaporate easily; give the wine its tartness.,3.8,14.2
+volatile acidity,Input,g/dm3 (acetic acid),Acetic acid level; too much gives an unpleasant vinegar taste.,0.08,1.1
+citric acid,Input,g/dm3,Citric acid; adds freshness and flavour in small amounts.,0.0,1.66
+residual sugar,Input,g/dm3,Sugar remaining after fermentation stops; higher values mean a sweeter wine.,0.6,65.8
+chlorides,Input,g/dm3 (sodium chloride),Amount of salt in the wine.,0.009,0.346
+free sulfur dioxide,Input,mg/dm3,SO2 not bound to other molecules; prevents microbial growth and oxidation.,2.0,289.0
+total sulfur dioxide,Input,mg/dm3,Free plus bound SO2; high levels can be noticed in smell and taste.,9.0,440.0
+density,Input,g/cm3,Density of the wine; depends mainly on alcohol and sugar content.,0.98711,1.03898
+pH,Input,pH scale,Acidity/alkalinity; lower pH means a more acidic wine.,2.72,3.82
+sulphates,Input,g/dm3 (potassium sulphate),Wine additive that acts as an antimicrobial and antioxidant.,0.22,1.08
+alcohol,Input,% by volume,Alcohol content of the wine.,8.0,14.2
+quality,Target,score (0-10),Sensory quality score given by wine tasters (median of at least 3 evaluations).,3.0,9.0

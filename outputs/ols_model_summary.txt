@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                quality   R-squared:                       0.287
+Model:                            OLS   Adj. R-squared:                  0.286
+Method:                 Least Squares   F-statistic:                     265.6
+Date:                Mon, 02 Nov 2026   Prob (F-statistic):          3.10e-286
+Time:                        14:57:14   Log-Likelihood:                -4490.8
+No. Observations:                3961   AIC:                             8996.
+Df Residuals:                    3954   BIC:                             9040.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              104.3354     13.765      7.580      0.000      77.348     131.323
+alcohol              0.2478      0.020     12.257      0.000       0.208       0.287
+density           -104.0343     13.798     -7.540      0.000    -131.086     -76.983
+pH                   0.7268      0.086      8.461      0.000       0.558       0.895
+volatile acidity    -1.7751      0.120    -14.812      0.000      -2.010      -1.540
+citric acid          0.2979      0.105      2.843      0.004       0.092       0.503
+residual sugar       0.0609      0.006     10.522      0.000       0.050       0.072
+==============================================================================
+Omnibus:                       90.208   Durbin-Watson:                   1.768
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              196.444
+Skew:                          -0.068   Prob(JB):                     2.20e-43
+Kurtosis:                       4.083   Cond. No.                     2.09e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.09e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

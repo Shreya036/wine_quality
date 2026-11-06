@@ -1,0 +1,11 @@
+Metric,Value
+Original row count,4898
+Duplicate rows originally,937
+Duplicate rows removed,937
+Row count after cleaning,3961
+Duplicate rows remaining,0
+Missing values originally,0
+Missing values remaining,0
+Columns,12
+Negative numeric values remaining,0
+Outlier values flagged by IQR rule (kept),1063
